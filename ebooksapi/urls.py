@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('ebooks.api.urls')),
     path('api-auth/', include("rest_framework.urls")),
+    path('api/quotes/', include('quotes.api.urls')),
 ]
